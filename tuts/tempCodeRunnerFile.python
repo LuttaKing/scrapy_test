@@ -1,0 +1,6 @@
+import requests as rq
+
+url='https://luttaking.github.io/'
+
+x=rq.get(url)
+print(x)
